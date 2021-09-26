@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">mad_pizza</string>
+
+    <string-array name="State">
+        <item>Western</item>
+        <item>Southern</item>
+    </string-array>
+    <string-array name="cities">
+        <item>Kaduwela</item>
+        <item>Malabe</item>
+        <item>Koswatte</item>
+        <item>Battaramulla</item>
+        <item>Borella</item>
+        <item>Athurugiriya</item>
+    </string-array>
+
+    <string-array name="districts">
+        <item>Colombo</item>
+        <item>Kalutara</item>
+        <item>Gampaha</item>
+        <item>Galle</item>
+        <item>Matara</item>
+
+    </string-array>
+
+    <string-array name="DishName">
+        <item>Chicken Bacon</item>
+        <item>Devilled Chicken</item>
+        <item>Tandoori Chicken</item>
+        <item>Popcorn Veggie</item>
+    </string-array>
+
+    <string-array name="shipper">
+        <item>shipper1</item>
+        <item>shipper2</item>
+        <item>shipper3</item>
+
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="DishName">Pizza Name</string>
+</resources>

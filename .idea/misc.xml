@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/chathuka/Desktop/New folder/app/src/main/res/drawable/btnblueish.xml" value="0.10208333333333333" />
+        <entry key="..\:/Users/chathuka/Desktop/New folder/app/src/main/res/drawable/button_shape.xml" value="0.10208333333333333" />
+        <entry key="..\:/Users/chathuka/Desktop/New folder/app/src/main/res/drawable/ic_check_box_black_24dp.xml" value="0.10208333333333333" />
+        <entry key="..\:/Users/chathuka/Desktop/New folder/app/src/main/res/font/caudex.xml" value="0.11614583333333334" />
+        <entry key="..\:/Users/chathuka/Desktop/New folder/app/src/main/res/layout/activity_chef_food_panel__bottom_navigation.xml" value="0.209375" />
+        <entry key="..\:/Users/chathuka/Desktop/New folder/app/src/main/res/layout/activity_chef_food_panel_bottom_navigation.xml" value="0.209375" />
+        <entry key="..\:/Users/chathuka/Desktop/New folder/app/src/main/res/layout/activity_chef_login.xml" value="0.209375" />
+        <entry key="..\:/Users/chathuka/Desktop/New folder/app/src/main/res/layout/activity_chef_order_dishes.xml" value="0.209375" />
+        <entry key="..\:/Users/chathuka/Desktop/New folder/app/src/main/res/layout/activity_chef_order_tobe_prepared.xml" value="0.209375" />
+        <entry key="..\:/Users/chathuka/Desktop/New folder/app/src/main/res/layout/activity_chef_post_dish.xml" value="0.209375" />
+        <entry key="..\:/Users/chathuka/Desktop/New folder/app/src/main/res/layout/activity_chef_prepared_order.xml" value="0.209375" />
+        <entry key="..\:/Users/chathuka/Desktop/New folder/app/src/main/res/layout/activity_chef_prepared_order_view.xml" value="0.209375" />
+        <entry key="..\:/Users/chathuka/Desktop/New folder/app/src/main/res/layout/activity_chef_registeration.xml" value="0.13454545454545455" />
+        <entry key="..\:/Users/chathuka/Desktop/New folder/app/src/main/res/layout/activity_choose_one.xml" value="0.1953125" />
+        <entry key="..\:/Users/chathuka/Desktop/New folder/app/src/main/res/layout/activity_customer_food_panel_bottom_navigation.xml" value="0.209375" />
+        <entry key="..\:/Users/chathuka/Desktop/New folder/app/src/main/res/layout/activity_customer_online_payment.xml" value="0.209375" />
+        <entry key="..\:/Users/chathuka/Desktop/New folder/app/src/main/res/layout/activity_customer_order_fragment.xml" value="0.209375" />
+        <entry key="..\:/Users/chathuka/Desktop/New folder/app/src/main/res/layout/activity_customer_payment.xml" value="0.209375" />
+        <entry key="..\:/Users/chathuka/Desktop/New folder/app/src/main/res/layout/activity_customer_payment_otp.xml" value="0.209375" />
+        <entry key="..\:/Users/chathuka/Desktop/New folder/app/src/main/res/layout/activity_delivery_food_panel_bottom_navigation.xml" value="0.209375" />
+        <entry key="..\:/Users/chathuka/Desktop/New folder/app/src/main/res/layout/activity_delivery_login.xml" value="0.209375" />
+        <entry key="..\:/Users/chathuka/Desktop/New folder/app/src/main/res/layout/activity_delivery_pending_order_view.xml" value="0.18" />
+        <entry key="..\:/Users/chathuka/Desktop/New folder/app/src/main/res/layout/activity_delivery_registeration.xml" value="0.209375" />
+        <entry key="..\:/Users/chathuka/Desktop/New folder/app/src/main/res/layout/activity_delivery_ship_order_view.xml" value="0.209375" />
+        <entry key="..\:/Users/chathuka/Desktop/New folder/app/src/main/res/layout/activity_delivery_shipping_order.xml" value="0.209375" />
+        <entry key="..\:/Users/chathuka/Desktop/New folder/app/src/main/res/layout/activity_login.xml" value="0.33" />
+        <entry key="..\:/Users/chathuka/Desktop/New folder/app/src/main/res/layout/activity_main.xml" value="0.209375" />
+        <entry key="..\:/Users/chathuka/Desktop/New folder/app/src/main/res/layout/activity_main_menu.xml" value="0.25" />
+        <entry key="..\:/Users/chathuka/Desktop/New folder/app/src/main/res/layout/activity_order_dish.xml" value="0.209375" />
+        <entry key="..\:/Users/chathuka/Desktop/New folder/app/src/main/res/layout/activity_payable_orders.xml" value="0.209375" />
+        <entry key="..\:/Users/chathuka/Desktop/New folder/app/src/main/res/layout/activity_pending_orders.xml" value="0.209375" />
+        <entry key="..\:/Users/chathuka/Desktop/New folder/app/src/main/res/layout/activity_registeration.xml" value="0.209375" />
+        <entry key="..\:/Users/chathuka/Desktop/New folder/app/src/main/res/layout/activity_update__delete__dish.xml" value="0.209375" />
+        <entry key="..\:/Users/chathuka/Desktop/New folder/app/src/main/res/layout/cart_placeorder.xml" value="0.209375" />
+        <entry key="..\:/Users/chathuka/Desktop/New folder/app/src/main/res/layout/chef_menu_update_delete.xml" value="0.1" />
+        <entry key="..\:/Users/chathuka/Desktop/New folder/app/src/main/res/layout/chef_order_dishes.xml" value="0.209375" />
+        <entry key="..\:/Users/chathuka/Desktop/New folder/app/src/main/res/layout/chef_orders.xml" value="0.1" />
+        <entry key="..\:/Users/chathuka/Desktop/New folder/app/src/main/res/layout/chef_ordertobeprepared.xml" value="0.1" />
+        <entry key="..\:/Users/chathuka/Desktop/New folder/app/src/main/res/layout/chef_ordertobeprepared_view.xml" value="0.1" />
+        <entry key="..\:/Users/chathuka/Desktop/New folder/app/src/main/res/layout/chef_preparedorder.xml" value="0.1" />
+        <entry key="..\:/Users/chathuka/Desktop/New folder/app/src/main/res/layout/chef_preparedorderview.xml" value="0.1" />
+        <entry key="..\:/Users/chathuka/Desktop/New folder/app/src/main/res/layout/customer_menudish.xml" value="0.209375" />
+        <entry key="..\:/Users/chathuka/Desktop/New folder/app/src/main/res/layout/customer_payableorder.xml" value="0.209375" />
+        <entry key="..\:/Users/chathuka/Desktop/New folder/app/src/main/res/layout/customer_trackorder.xml" value="0.209375" />
+        <entry key="..\:/Users/chathuka/Desktop/New folder/app/src/main/res/layout/delivery_pendingorder.xml" value="0.209375" />
+        <entry key="..\:/Users/chathuka/Desktop/New folder/app/src/main/res/layout/delivery_pendingorders.xml" value="0.209375" />
+        <entry key="..\:/Users/chathuka/Desktop/New folder/app/src/main/res/layout/delivery_shiporders.xml" value="0.25" />
+        <entry key="..\:/Users/chathuka/Desktop/New folder/app/src/main/res/layout/enter_address.xml" value="0.18" />
+        <entry key="..\:/Users/chathuka/Desktop/New folder/app/src/main/res/layout/fragment_chef_home.xml" value="0.209375" />
+        <entry key="..\:/Users/chathuka/Desktop/New folder/app/src/main/res/layout/fragment_chef_order.xml" value="0.209375" />
+        <entry key="..\:/Users/chathuka/Desktop/New folder/app/src/main/res/layout/fragment_chef_pendingorders.xml" value="0.209375" />
+        <entry key="..\:/Users/chathuka/Desktop/New folder/app/src/main/res/layout/fragment_chef_profile.xml" value="0.209375" />
+        <entry key="..\:/Users/chathuka/Desktop/New folder/app/src/main/res/layout/fragment_customer_cart.xml" value="0.209375" />
+        <entry key="..\:/Users/chathuka/Desktop/New folder/app/src/main/res/layout/fragment_customer_home.xml" value="0.209375" />
+        <entry key="..\:/Users/chathuka/Desktop/New folder/app/src/main/res/layout/fragment_customer_order.xml" value="0.33" />
+        <entry key="..\:/Users/chathuka/Desktop/New folder/app/src/main/res/layout/fragment_customer_profile.xml" value="0.209375" />
+        <entry key="..\:/Users/chathuka/Desktop/New folder/app/src/main/res/layout/fragment_customer_track.xml" value="0.209375" />
+        <entry key="..\:/Users/chathuka/Desktop/New folder/app/src/main/res/layout/fragment_delivery_pending_order.xml" value="0.209375" />
+        <entry key="..\:/Users/chathuka/Desktop/New folder/app/src/main/res/layout/fragment_delivery_ship_order.xml" value="0.209375" />
+        <entry key="..\:/Users/chathuka/Desktop/New folder/app/src/main/res/layout/pending_order_dishes.xml" value="0.209375" />
+        <entry key="..\:/Users/chathuka/Desktop/New folder/app/src/main/res/layout/shiporderview.xml" value="0.209375" />
+        <entry key="..\:/Users/chathuka/Desktop/New folder/app/src/main/res/menu/bottom_navigation.xml" value="0.209375" />
+        <entry key="..\:/Users/chathuka/Desktop/New folder/app/src/main/res/menu/chef_bottom_navigation.xml" value="0.209375" />
+        <entry key="..\:/Users/chathuka/Desktop/New folder/app/src/main/res/menu/delivery_bottom_navigation.xml" value="0.209375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
