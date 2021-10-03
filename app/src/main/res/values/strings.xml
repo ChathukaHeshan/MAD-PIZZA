@@ -2,16 +2,8 @@
     <string name="app_name">mad_pizza</string>
 
     <string-array name="State">
-        <item>Western</item>
-        <item>Southern</item>
-    </string-array>
-    <string-array name="cities">
-        <item>Kaduwela</item>
-        <item>Malabe</item>
-        <item>Koswatte</item>
-        <item>Battaramulla</item>
-        <item>Borella</item>
-        <item>Athurugiriya</item>
+        <item>Maharashtra</item>
+        <item>Gujarat</item>
     </string-array>
 
     <string-array name="districts">

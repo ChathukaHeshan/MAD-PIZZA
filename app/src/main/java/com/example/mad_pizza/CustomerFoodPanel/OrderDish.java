@@ -82,7 +82,7 @@ public class OrderDish extends AppCompatActivity {
                         FoodQuantity.setText(Html.fromHtml(qua));
                         String ss = "<b>" + "Description: " + "</b>" + updateDishModel.getDescription();
                         FoodDescription.setText(Html.fromHtml(ss));
-                        String pri = "<b>" + "Price: ₹ " + "</b>" + updateDishModel.getPrice();
+                        String pri = "<b>" + "Price: Rs " + "</b>" + updateDishModel.getPrice();
                         FoodPrice.setText(Html.fromHtml(pri));
                         Glide.with(OrderDish.this).load(updateDishModel.getImageURL()).into(imageView);
 

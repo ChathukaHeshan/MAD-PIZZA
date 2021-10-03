@@ -48,7 +48,7 @@ public class CustomerHomeFragment extends Fragment implements SwipeRefreshLayout
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View v = inflater.inflate(R.layout.fragment_customer_home, null);
-        getActivity().setTitle("MAD PIZZA");
+        getActivity().setTitle("Food On");
         setHasOptionsMenu(true);
         recyclerView = v.findViewById(R.id.recycle_menu);
         recyclerView.setHasFixedSize(true);
