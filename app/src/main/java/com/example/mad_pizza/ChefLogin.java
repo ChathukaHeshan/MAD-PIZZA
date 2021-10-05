@@ -42,7 +42,7 @@ public class ChefLogin extends AppCompatActivity {
             Signout = (Button) findViewById(R.id.button4);
             txt = (TextView) findViewById(R.id.textView3);
             Forgotpassword = (TextView) findViewById(R.id.forgotpass);
-            Signinphone = (Button) findViewById(R.id.btnphone);
+            //Signinphone = (Button) findViewById(R.id.btnphone);
 
 
             FAuth = FirebaseAuth.getInstance();

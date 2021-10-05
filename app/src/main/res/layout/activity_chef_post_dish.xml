@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ChefFoodPanel.Chef_PostDish"
-    android:background="@drawable/pic19">
+    android:background="@drawable/img4">
 
 
     <LinearLayout
@@ -127,8 +127,8 @@
 
     <ImageButton
         android:id="@+id/imageupload"
-        android:layout_width="180dp"
-        android:layout_height="180dp"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
         android:background="@drawable/camerabtnshape"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout"
         app:layout_constraintEnd_toEndOf="parent"

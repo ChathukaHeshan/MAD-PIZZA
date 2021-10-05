@@ -60,7 +60,7 @@ public class MainMenu extends AppCompatActivity {
             }
         });
         signinemail = (Button) findViewById(R.id.SignwithEmail);
-       signinphone = (Button) findViewById(R.id.SignwithPhone);
+       //signinphone = (Button) findViewById(R.id.SignwithPhone);
         signup = (Button) findViewById(R.id.SignUp);
 
         signinemail.setOnClickListener(new View.OnClickListener() {
@@ -74,15 +74,15 @@ public class MainMenu extends AppCompatActivity {
             }
         });
 
-        signinphone.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent signphone = new Intent(MainMenu.this, ChooseOne.class);
-                signphone.putExtra("Home", "Phone");
-                startActivity(signphone);
-                finish();
-            }
-        });
+//        signinphone.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent signphone = new Intent(MainMenu.this, ChooseOne.class);
+//                signphone.putExtra("Home", "Phone");
+//                startActivity(signphone);
+//                finish();
+//            }
+//        });
 
         signup.setOnClickListener(new View.OnClickListener() {
             @Override

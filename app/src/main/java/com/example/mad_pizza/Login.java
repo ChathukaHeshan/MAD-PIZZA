@@ -43,7 +43,7 @@ public class Login extends AppCompatActivity {
             Signout = (Button) findViewById(R.id.button4);
             txt = (TextView) findViewById(R.id.textView3);
             Forgotpassword=(TextView)findViewById(R.id.forgotpass);
-            SignInphone=(Button)findViewById(R.id.btnphone);
+            //SignInphone=(Button)findViewById(R.id.btnphone);
 
             FAuth = FirebaseAuth.getInstance();
 

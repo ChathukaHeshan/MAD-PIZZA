@@ -25,9 +25,9 @@ public class ChefProfileFragment extends Fragment {
         View v = inflater.inflate(R.layout.fragment_chef_profile, container, false);
         getActivity().setTitle("Post Dish");
         AnimationDrawable animationDrawable = new AnimationDrawable();
-        animationDrawable.addFrame(getResources().getDrawable(R.drawable.bghome2), 3000);
-        animationDrawable.addFrame(getResources().getDrawable(R.drawable.pic2), 3000);
-        animationDrawable.addFrame(getResources().getDrawable(R.drawable.pic3), 3000);
+        animationDrawable.addFrame(getResources().getDrawable(R.drawable.img3), 3000);
+        animationDrawable.addFrame(getResources().getDrawable(R.drawable.img6), 3000);
+        animationDrawable.addFrame(getResources().getDrawable(R.drawable.img1), 3000);
         animationDrawable.addFrame(getResources().getDrawable(R.drawable.pic5), 3000);
         animationDrawable.addFrame(getResources().getDrawable(R.drawable.pic6), 3000);
         animationDrawable.addFrame(getResources().getDrawable(R.drawable.bggg), 3000);

@@ -40,7 +40,7 @@ public class Delivery_Login extends AppCompatActivity {
         Signin = (Button) findViewById(R.id.Loginbtn);
         txt = (TextView) findViewById(R.id.donot);
         Forgotpassword = (TextView) findViewById(R.id.Dforgotpass);
-        Signinphone = (Button) findViewById(R.id.Dphonebtn);
+        //Signinphone = (Button) findViewById(R.id.Dphonebtn);
         FAuth = FirebaseAuth.getInstance();
 
         Signin.setOnClickListener(new View.OnClickListener() {
@@ -106,14 +106,14 @@ public class Delivery_Login extends AppCompatActivity {
             }
         });
 
-        Signinphone.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
+        //Signinphone.setOnClickListener(new View.OnClickListener() {
+
+          //  public void onClick(View v) {
   //              Intent q = new Intent(Delivery_Login.this, Delivery_LoginPhone.class);
    //             startActivity(q);
-                finish();
-            }
-        });
+               // finish();
+            //}
+       // });
     }
 
     String emailpattern = "[a-zA-Z0-9._-]+@[a-z]+\\.+[a-z]+";

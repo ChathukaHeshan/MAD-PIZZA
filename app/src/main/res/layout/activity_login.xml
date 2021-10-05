@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/pic5"
+    android:background="@drawable/img6"
     tools:context=".Login">
 
     <LinearLayout
@@ -28,6 +28,13 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/logoimage"
+            android:layout_width="152dp"
+            android:layout_height="139dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/madlogo" />
 
 
         <com.google.android.material.textfield.TextInputLayout

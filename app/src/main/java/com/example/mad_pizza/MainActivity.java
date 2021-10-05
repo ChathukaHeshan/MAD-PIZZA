@@ -26,25 +26,27 @@ public class MainActivity extends AppCompatActivity {
     FirebaseAuth Fauth;
     FirebaseDatabase firebaseDatabase;
     DatabaseReference databaseReference;
-    ImageView imageVieww;
+    ImageView mad_logo;
     TextView textView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        this.setTitle("MAD PIZZA");
 
-        imageVieww=(ImageView)findViewById(R.id.imageView);
-        textView=(TextView)findViewById(R.id.textView7);
-    //    imageVieww.animate().alpha(0f).setDuration(0);
-   //     textView.animate().alpha(0f).setDuration(0);
-   //     imageVieww.animate().alpha(1f).setDuration(1000).setListener(new AnimatorListenerAdapter() {
-   //         @Override
-    //        public void onAnimationEnd(Animator animation) {
-    //            textView.animate().alpha(1f).setDuration(800);
-    //        }
-     //   });
-  /*      new Handler().postDelayed(new Runnable() {
+        mad_logo = (ImageView) findViewById(R.id.imageView);
+
+        mad_logo.animate().alpha(0f).setDuration(0);
+
+        mad_logo.animate().alpha(1f).setDuration(1000).setListener(new AnimatorListenerAdapter() {
+            @Override
+            public void onAnimationEnd(Animator animation) {
+                super.onAnimationEnd(animation);
+
+            }
+        });
+        new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
 
@@ -68,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
                                     finish();
                                 }
                                 if (role.equals("DeliveryPerson")) {
-                                  Intent intent = new Intent(MainActivity.this, Delivery_FoodPanelBottomNavigation.class);
+                                    Intent intent = new Intent(MainActivity.this, Delivery_FoodPanelBottomNavigation.class);
                                     startActivity(intent);
                                     finish();
                                 }
@@ -100,14 +102,14 @@ public class MainActivity extends AppCompatActivity {
                         alert.show();
                         Fauth.signOut();
                     }
-                } else {    */
+                } else {
                     Intent intent = new Intent(MainActivity.this, MainMenu.class);
                     startActivity(intent);
                     finish();
 
-          //      }
+                }
 
-      //      }
-    //    }, 3000);
+            }
+        }, 3000);
     }
 }
