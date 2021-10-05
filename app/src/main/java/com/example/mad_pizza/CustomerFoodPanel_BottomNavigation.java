@@ -38,6 +38,25 @@ public class CustomerFoodPanel_BottomNavigation extends AppCompatActivity implem
         BottomNavigationView navigationView = findViewById(R.id.bottom_navigation);
         navigationView.setOnNavigationItemSelectedListener(this);
 
+        String name = getIntent().getStringExtra("PAGE");
+        FragmentManager fragmentManager = getSupportFragmentManager();
+        FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+        if (name != null) {
+            if (name.equalsIgnoreCase("Homepage")) {
+                loadFragment(new CustomerHomeFragment());
+            } else if (name.equalsIgnoreCase("Preparingpage")) {
+                loadFragment(new CustomerTrackFragment());
+            } else if (name.equalsIgnoreCase("Preparedpage")) {
+                loadFragment(new CustomerTrackFragment());
+            } else if (name.equalsIgnoreCase("DeliverOrderpage")) {
+                loadFragment(new CustomerTrackFragment());
+            } else if (name.equalsIgnoreCase("ThankYoupage")) {
+                loadFragment(new CustomerHomeFragment());
+            }
+        } else {
+            loadFragment(new CustomerHomeFragment());
+        }
+
     }
 
 
