@@ -377,7 +377,7 @@ public class ChefRegisteration extends AppCompatActivity {
             mobileno.setErrorEnabled(true);
             mobileno.setError("Mobile number is required");
         } else {
-            if (mobile.length() < 10) {
+            if (mobile.length() < 9) {
                 mobileno.setErrorEnabled(true);
                 mobileno.setError("Invalid mobile number");
             } else {

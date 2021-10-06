@@ -363,7 +363,7 @@ public class Registeration extends AppCompatActivity {
             Mobileno.setErrorEnabled(true);
             Mobileno.setError("Mobile number is required");
         } else {
-            if (mobileno.length() < 10) {
+            if (mobileno.length() < 9) {
                 Mobileno.setErrorEnabled(true);
                 Mobileno.setError("Invalid mobile number");
             } else {
