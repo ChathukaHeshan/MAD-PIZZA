@@ -42,6 +42,9 @@ public class CustomerProfileFragment extends Fragment {
     String[] Malabe = {"Hokandara", "Arangala", "Weliwita", "Koswatta", "Talahena"};
     String[] Kaduwela = {"Biyagama", "Kothalawala", "Yaakaala", "Diyakadittha", "Wele-handiya"};
     String[] Battarmulla = {"Ganehena", "Palawatta", "Thalawathugoda", "Diyawannawa", "Parliament-road"};
+    String[] Pallakele = {"Dharshanapura", "Bogambara", "Ranawiru-Uyana", "Sampath-Uyana", "Kundasale"};
+    String[] Galaha = {"Moragolla", "Bellwood", "Kirimatiya", "Delthota", "Pattiyamulla"};
+    String[] Hatton = {"Nilwala", "Singamadei", "Wellington", "Annefield", "Dickoya"};
 
 
     EditText firstname, lastname, address;
@@ -147,30 +150,30 @@ public class CustomerProfileFragment extends Fragment {
                             ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(getContext(), android.R.layout.simple_spinner_item, listt);
                             Suburban.setAdapter(arrayAdapter);
                         }
-//                        if (cityy.equals("Ahemdabad")) {
-//                            ArrayList<String> listt = new ArrayList<>();
-//                            for (String text : Ahemdabad) {
-//                                listt.add(text);
-//                            }
-//                            ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(getContext(), android.R.layout.simple_spinner_item, listt);
-//                            Suburban.setAdapter(arrayAdapter);
-//                        }
-//                        if (cityy.equals("Surat")) {
-//                            ArrayList<String> listt = new ArrayList<>();
-//                            for (String text : Surat) {
-//                                listt.add(text);
-//                            }
-//                            ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(getContext(), android.R.layout.simple_spinner_item, listt);
-//                            Suburban.setAdapter(arrayAdapter);
-//                        }
-//                        if (cityy.equals("Rajkot")) {
-//                            ArrayList<String> listt = new ArrayList<>();
-//                            for (String text : Rajkot) {
-//                                listt.add(text);
-//                            }
-//                            ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(getContext(), android.R.layout.simple_spinner_item, listt);
-//                            Suburban.setAdapter(arrayAdapter);
-//                        }
+                        if (cityy.equals("Pallakele")) {
+                            ArrayList<String> listt = new ArrayList<>();
+                            for (String text : Pallakele) {
+                                listt.add(text);
+                            }
+                            ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(getContext(), android.R.layout.simple_spinner_item, listt);
+                            Suburban.setAdapter(arrayAdapter);
+                        }
+                        if (cityy.equals("Galaha")) {
+                            ArrayList<String> listt = new ArrayList<>();
+                            for (String text : Galaha) {
+                                listt.add(text);
+                            }
+                            ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(getContext(), android.R.layout.simple_spinner_item, listt);
+                            Suburban.setAdapter(arrayAdapter);
+                        }
+                        if (cityy.equals("Hatton")) {
+                            ArrayList<String> listt = new ArrayList<>();
+                            for (String text : Hatton) {
+                                listt.add(text);
+                            }
+                            ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(getContext(), android.R.layout.simple_spinner_item, listt);
+                            Suburban.setAdapter(arrayAdapter);
+                        }
                         Suburban.setSelection(getIndexByString(Suburban, customer.getSuburban()));
                     }
 

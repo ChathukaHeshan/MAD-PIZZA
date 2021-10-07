@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "1093287567774",
-    "project_id": "new-mad-pizza",
-    "storage_bucket": "new-mad-pizza.appspot.com"
+    "project_number": "777742772716",
+    "project_id": "madpizza2",
+    "storage_bucket": "madpizza2.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1093287567774:android:9f4671a39b9927738fb68f",
+        "mobilesdk_app_id": "1:777742772716:android:89b2bef83eed4c8940f8c9",
         "android_client_info": {
           "package_name": "com.example.mad_pizza"
         }
       },
       "oauth_client": [
         {
-          "client_id": "1093287567774-0gtp6tt4esticfsaenc31scttssi7hiq.apps.googleusercontent.com",
+          "client_id": "777742772716-ig2ij0ugi6l912jflnf6aipnj2vomhop.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyA-BjXqHQavfoxdi8yHqTlXlt-sXy_WhsM"
+          "current_key": "AIzaSyCnK6PF3NohN9JOt4C3-ZeQBlpg_OXBovg"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "1093287567774-0gtp6tt4esticfsaenc31scttssi7hiq.apps.googleusercontent.com",
+              "client_id": "777742772716-ig2ij0ugi6l912jflnf6aipnj2vomhop.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

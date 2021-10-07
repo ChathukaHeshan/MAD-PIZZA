@@ -38,7 +38,9 @@ public class ChefRegisteration extends AppCompatActivity {
     String[] Malabe = {"Hokandara", "Arangala", "Weliwita", "Koswatta", "Talahena"};
     String[] Kaduwela = {"Biyagama", "Kothalawala", "Yaakaala", "Diyakadittha", "Wele-handiya"};
     String[] Battarmulla = {"Ganehena", "Palawatta", "Thalawathugoda", "Diyawannawa", "Parliament-road"};
-
+    String[] Pallakele = {"Dharshanapura", "Bogambara", "Ranawiru-Uyana", "Sampath-Uyana", "Kundasale"};
+    String[] Galaha = {"Moragolla", "Bellwood", "Kirimatiya", "Delthota", "Pattiyamulla"};
+    String[] Hatton = {"Nilwala", "Singamadei", "Wellington", "Annefield", "Dickoya"};
 
 
 

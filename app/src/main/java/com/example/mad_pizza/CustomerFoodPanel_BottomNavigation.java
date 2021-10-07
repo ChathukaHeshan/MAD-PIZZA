@@ -37,7 +37,7 @@ public class CustomerFoodPanel_BottomNavigation extends AppCompatActivity implem
         setContentView(R.layout.activity_customer_food_panel_bottom_navigation);
         BottomNavigationView navigationView = findViewById(R.id.bottom_navigation);
         navigationView.setOnNavigationItemSelectedListener(this);
-
+        //UpdateToken();
         String name = getIntent().getStringExtra("PAGE");
         FragmentManager fragmentManager = getSupportFragmentManager();
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
@@ -59,7 +59,12 @@ public class CustomerFoodPanel_BottomNavigation extends AppCompatActivity implem
 
     }
 
-
+   /* private void UpdateToken() {
+        FirebaseUser firebaseUser = FirebaseAuth.getInstance().getCurrentUser();
+        String refreshToken = FirebaseInstanceId.getInstance().getToken();
+        Token token = new Token(refreshToken);
+        FirebaseDatabase.getInstance().getReference("Tokens").child(FirebaseAuth.getInstance().getCurrentUser().getUid()).setValue(token);
+    }*/
 
     private boolean loadFragment(Fragment fragment) {
         if (fragment != null) {
