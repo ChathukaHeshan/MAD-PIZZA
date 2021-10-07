@@ -85,7 +85,7 @@ public class ChefRegisteration extends AppCompatActivity {
         Suburban = (Spinner) findViewById(R.id.Suburban);
         signup = (Button) findViewById(R.id.Signup);
         Emaill = (Button) findViewById(R.id.emaill);
-        Phone = (Button) findViewById(R.id.phone);
+        //Phone = (Button) findViewById(R.id.phone);
         Cpp = (CountryCodePicker) findViewById(R.id.CountryCode);
 
 

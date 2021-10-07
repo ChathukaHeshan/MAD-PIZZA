@@ -86,7 +86,7 @@ public class Registeration extends AppCompatActivity {
             Mobileno = (TextInputLayout) findViewById(R.id.Mobilenumber);
             Cpp = (CountryCodePicker) findViewById(R.id.CountryCode);
             Email = (Button) findViewById(R.id.emaill);
-            Phone = (Button) findViewById(R.id.phone);
+            //Phone = (Button) findViewById(R.id.phone);
 
 
             statespin.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
@@ -308,15 +308,15 @@ public class Registeration extends AppCompatActivity {
             }
         });
 
-        Phone.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
+//        Phone.setOnClickListener(new View.OnClickListener() {
+          //  @Override
+          //  public void onClick(View v) {
 
           //      Intent e = new Intent(Registeration.this, LoginPhone.class);
             //    startActivity(e);
-                finish();
-            }
-        });
+               // finish();
+          //  }
+      //  });
 
 
     }
