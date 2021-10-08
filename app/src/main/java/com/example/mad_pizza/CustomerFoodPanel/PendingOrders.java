@@ -30,6 +30,7 @@ public class PendingOrders extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pending_orders);
+        setTitle("PENDING ORDERS");
         recyclerView = findViewById(R.id.Recycleorders);
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(new LinearLayoutManager(PendingOrders.this));

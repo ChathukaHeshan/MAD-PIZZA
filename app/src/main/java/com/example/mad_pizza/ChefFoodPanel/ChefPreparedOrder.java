@@ -29,6 +29,7 @@ public class ChefPreparedOrder extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_chef_prepared_order);
+        setTitle("PREPARED ORDERS");
         recyclerView = findViewById(R.id.Recycle_preparedOrders);
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(new LinearLayoutManager(ChefPreparedOrder.this));

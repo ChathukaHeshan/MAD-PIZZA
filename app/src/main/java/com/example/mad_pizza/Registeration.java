@@ -68,6 +68,7 @@ public class Registeration extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_registeration);
+        setTitle("PIZZA MAD");
         try {
             mDialog = new ProgressDialog(Registeration.this);
             mDialog.setMessage("Registering please wait...");

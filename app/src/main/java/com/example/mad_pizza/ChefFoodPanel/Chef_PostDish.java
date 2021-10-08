@@ -69,6 +69,7 @@ public class Chef_PostDish extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_chef_post_dish);
+        setTitle("PIZZA MAD CHEF");
 
         storage = FirebaseStorage.getInstance();
         storageReference = storage.getReference();

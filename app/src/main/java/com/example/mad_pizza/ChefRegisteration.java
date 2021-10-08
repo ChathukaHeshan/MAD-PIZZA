@@ -70,6 +70,7 @@ public class ChefRegisteration extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_chef_registeration);
+        setTitle("PIZZA MAD CHEF");
 
         Fname = (TextInputLayout) findViewById(R.id.Firstname);
         Lname = (TextInputLayout) findViewById(R.id.Lastname);
