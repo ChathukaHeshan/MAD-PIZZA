@@ -37,6 +37,7 @@ public class Login extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+        setTitle("Login");
         try {
             email = (TextInputLayout) findViewById(R.id.Lemail);
             pass = (TextInputLayout) findViewById(R.id.Lpassword);
